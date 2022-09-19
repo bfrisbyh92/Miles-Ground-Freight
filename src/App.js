@@ -12,6 +12,7 @@ import Featuring from "miles-components/Featuring";
 import Team from "miles-components/Team";
 import ContactUs from "pages/LandingPages/ContactUs/index.js"
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
+import Footer from "pages/LandingPages/Author/sections/Footer";
 
 function App() {
   let x;
@@ -22,9 +23,10 @@ function App() {
       <HeroBanner />
       <Information />
       <Featuring />
-      <DefaultInfoCard />
+      {/* <DefaultInfoCard /> */}
       <Team />
       <ContactUs />
+      <Footer />
     </ThemeProvider>
   );
 }

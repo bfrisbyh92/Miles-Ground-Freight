@@ -9,8 +9,8 @@
  *  }
  */
 export default {
-  title: 'Block Content',
-  name: 'blockContent',
+  title: 'servies',
+  name: 'services',
   type: 'array',
   of: [
     {

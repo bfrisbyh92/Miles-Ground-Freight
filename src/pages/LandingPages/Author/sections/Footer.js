@@ -36,8 +36,12 @@ function Footer() {
             mr="auto"
             mb={{ xs: 3, lg: 0 }}
           >
-            <MKTypography variant="h6" textTransform="uppercase" mb={{ xs: 2, lg: 3 }}>
-              Material Design
+            <MKTypography
+              variant="h6"
+              textTransform="uppercase"
+              mb={{ xs: 2, lg: 3 }}
+            >
+              Miles Ground Freight
             </MKTypography>
             <Stack
               component="ul"
@@ -85,7 +89,7 @@ function Footer() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Blog
+                  Contact
                 </MKTypography>
               </MKBox>
               <MKBox component="li">
@@ -103,14 +107,24 @@ function Footer() {
               </MKBox>
             </Stack>
             <MKTypography variant="button" opacity={0.8}>
-              Copyright © <script>document.write(new Date().getFullYear())</script>2021 Material
-              Design by Creative Tim.
+              <script>document.write(new Date().getFullYear())</script>2022
+              Miles Ground Freight
             </MKTypography>
           </Grid>
-          <Grid item xs={12} lg={6} ml="auto" textAlign={{ xs: "center", lg: "right" }}>
-            <MKTypography variant="body1" fontWeight="bold" mb={6} sx={{ fontSize: "1.125rem" }}>
-              The reward for getting on the stage is fame. The price of fame is you can&apos;t get
-              off the stage.
+          <Grid
+            item
+            xs={12}
+            lg={6}
+            ml="auto"
+            textAlign={{ xs: "center", lg: "right" }}
+          >
+            <MKTypography
+              variant="body1"
+              fontWeight="bold"
+              mb={6}
+              sx={{ fontSize: "1.125rem" }}
+            >
+              Any type of mission statement or whatever you want to put here.
             </MKTypography>
             <MKTypography
               component={Link}
